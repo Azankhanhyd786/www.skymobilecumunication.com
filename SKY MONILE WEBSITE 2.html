@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sky Mobile Communications - mobile accessories and online Jazz, Zong, Ufone and Telenor packages in Hyderabad, Pakistan.">
+  <title>Sky Mobile Communications | Hyderabad</title>
+  <style>
+    :root{--navy:#071a33;--blue:#087cf0;--cyan:#19c5e8;--ink:#10233e;--muted:#64748b;--light:#f3f8ff;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+    a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+    header{background:rgba(7,26,51,.97);color:#fff;position:sticky;top:0;z-index:10;box-shadow:0 5px 25px #06152c22}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 0}
+    .brand{font-size:19px;font-weight:800;letter-spacing:.5px}.brand span{color:var(--cyan)}
+    nav{display:flex;gap:22px;font-size:14px;color:#e7f1ff}nav a:hover{color:var(--cyan)}
+    .hero{background:radial-gradient(circle at 80% 20%,#1466b8 0,transparent 32%),linear-gradient(125deg,#06172f,#0a3470 62%,#087cf0);color:#fff;padding:86px 0 78px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:36px}
+    .eyebrow{display:inline-block;border:1px solid #ffffff55;border-radius:30px;padding:7px 13px;color:#c9f5ff;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+    h1{font-size:clamp(38px,6vw,64px);line-height:1.08;margin:20px 0 16px;letter-spacing:-1.5px}
+    .hero p{color:#dceaff;font-size:18px;max-width:580px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:9px;padding:13px 20px;font-weight:700;transition:.2s}
+    .primary{background:var(--cyan);color:#06213e}.primary:hover{transform:translateY(-2px);box-shadow:0 8px 22px #00c8ed44}
+    .secondary{border:1px solid #ffffff77;color:#fff}.secondary:hover{background:#ffffff18}
+    .visual{min-height:300px;border:1px solid #ffffff30;border-radius:28px;background:linear-gradient(145deg,#ffffff20,#ffffff08);display:grid;place-items:center;position:relative;padding:24px}
+    .phone{width:160px;height:260px;border:7px solid #dceeff;border-radius:28px;background:linear-gradient(160deg,#16c9eb,#1260c4 65%,#061a3a);box-shadow:0 24px 60px #00102d88;display:flex;align-items:center;justify-content:center;transform:rotate(-8deg)}
+    .phone:before{content:"";position:absolute;top:7px;width:55px;height:8px;background:#dceeff;border-radius:10px}
+    .phone strong{font-size:24px;color:#fff;text-align:center;line-height:1.1}
+    .float{position:absolute;background:#fff;color:var(--navy);padding:10px 14px;border-radius:12px;font-weight:700;box-shadow:0 10px 30px #00102d33}.f1{top:35px;left:10px}.f2{right:8px;bottom:38px}
+    section{padding:72px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 38px}
+    .kicker{color:var(--blue);font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:1.5px}
+    h2{font-size:clamp(28px,4vw,40px);line-height:1.2;margin:9px 0 12px;color:var(--navy)}
+    .section-head p,.muted{color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{border:1px solid #e3edf8;border-radius:18px;padding:25px;background:#fff;box-shadow:0 10px 30px #0b2b5010}
+    .icon{width:48px;height:48px;border-radius:14px;background:#e7f5ff;color:var(--blue);display:grid;place-items:center;font-size:24px;margin-bottom:15px}
+    .card h3{margin:0 0 8px;color:var(--navy)}.card p{margin:0;color:var(--muted);font-size:14px}
+    .soft{background:var(--light)}
+    .network-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .network{background:#fff;border:1px solid #e0ebf7;border-radius:16px;padding:24px 14px;text-align:center;box-shadow:0 8px 24px #0b2b500b}
+    .network b{font-size:22px;display:block;color:var(--navy)}.network span{font-size:12px;color:var(--muted)}
+    .network:nth-child(1){border-top:4px solid #e43b35}.network:nth-child(2){border-top:4px solid #00a6df}.network:nth-child(3){border-top:4px solid #65a843}.network:nth-child(4){border-top:4px solid #e9a52a}
+    .notice{margin:24px auto 0;max-width:760px;text-align:center;color:var(--muted);font-size:13px}
+    .cta{background:linear-gradient(120deg,#08264c,#087cf0);color:#fff;border-radius:22px;padding:38px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+    .cta h2{color:#fff;margin:0 0 8px}.cta p{color:#dbeaff;margin:0}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .contact-box{border:1px solid #e2edf8;border-radius:18px;padding:25px}
+    .contact-row{display:flex;gap:13px;align-items:flex-start;margin:17px 0}.contact-row strong{display:block;color:var(--navy)}
+    footer{background:#06172f;color:#c7d8ef;padding:25px 0;text-align:center;font-size:13px}
+    .wa{position:fixed;right:20px;bottom:20px;background:#16b95f;color:#fff;border-radius:50px;padding:13px 18px;font-weight:800;box-shadow:0 8px 25px #001c1850;z-index:20}
+
+    .category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+    .category-btn{border:1px solid #dce9f7;background:#fff;border-radius:16px;padding:12px;cursor:pointer;text-align:left;color:var(--ink);font:inherit;transition:.2s}
+    .category-btn:hover,.category-btn.active{border-color:var(--blue);box-shadow:0 9px 24px #087cf022;transform:translateY(-2px)}
+    .category-btn.active{background:#eef7ff}
+    .category-art{height:112px;border-radius:12px;background:linear-gradient(145deg,#eaf5ff,#d9eaff);display:grid;place-items:center;margin-bottom:10px;overflow:hidden}
+    .category-art svg{width:100%;height:100%;max-width:190px}
+    .category-btn strong{display:block;color:var(--navy);font-size:15px}
+    .category-btn small{color:var(--muted);font-size:12px}
+    .product-panel{margin-top:28px;border:1px solid #dce9f7;border-radius:20px;padding:24px;background:#fff;box-shadow:0 12px 30px #0b2b500c}
+    .product-panel-head{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:18px}
+    .product-panel h3{margin:0;color:var(--navy);font-size:22px}
+    .product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .product-item{border:1px solid #e5edf7;border-radius:15px;overflow:hidden;background:#fbfdff}
+    .product-image{height:180px;background:linear-gradient(145deg,#eff7ff,#dcecff);display:grid;place-items:center}
+    .product-image svg{height:100%;width:100%;max-width:230px}
+    .product-info{padding:13px}
+    .product-info strong{display:block;color:var(--navy)}
+    .product-info span{font-size:12px;color:var(--muted)}
+    .product-info a{display:inline-block;margin-top:10px;color:#087cf0;font-size:13px;font-weight:700}
+    @media(max-width:760px){.category-grid{grid-template-columns:repeat(2,1fr)}.product-grid{grid-template-columns:1fr 1fr}.product-panel{padding:16px}}
+    @media(max-width:430px){.product-grid{grid-template-columns:1fr}}
+
+    @media(max-width:760px){.nav{flex-direction:column;gap:10px}nav{gap:14px;flex-wrap:wrap;justify-content:center}.hero{padding:58px 0}.hero-grid{grid-template-columns:1fr}.visual{min-height:270px}.cards{grid-template-columns:1fr}.network-grid{grid-template-columns:repeat(2,1fr)}.contact-grid{grid-template-columns:1fr}.cta{display:block;padding:28px}.cta .btn{margin-top:20px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">SKY <span>MOBILE</span> COMMUNICATIONS</a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#packages">Online Packages</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Your local mobile service point</span>
+        <h1>Stay Connected.<br><span style="color:#35d8f1">Stay Ahead.</span></h1>
+        <p>Mobile accessories and convenient online mobile packages — all in one place in Hyderabad.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://wa.me/923161833610?text=Assalam-o-Alaikum%2C%20I%20want%20to%20ask%20about%20your%20services." target="_blank" rel="noopener">Chat on WhatsApp</a>
+          <a class="btn secondary" href="#services">Explore Services</a>
+        </div>
+      </div>
+      <div class="visual" aria-label="Decorative mobile phone illustration">
+        <span class="float f1">📱 Accessories</span>
+        <div class="phone"><strong>SKY<br>MOBILE</strong></div>
+        <span class="float f2">⚡ Online Packages</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><span class="kicker">Browse our accessories</span><h2>Mobile Accessories</h2><p>Choose a category below to view product pictures. Tap WhatsApp to ask about current stock and prices.</p></div>
+      <div class="category-grid" role="tablist" aria-label="Accessory categories">
+        <button class="category-btn active" type="button" role="tab" aria-selected="true" data-category="pouches">
+          <div class="category-art">
+            <svg viewBox="0 0 180 110" aria-hidden="true"><defs><linearGradient id="pouchA" x2="1" y2="1"><stop stop-color="#1a9bea"/><stop offset="1" stop-color="#092b62"/></linearGradient></defs><rect x="57" y="10" width="66" height="91" rx="15" fill="url(#pouchA)"/><rect x="64" y="17" width="52" height="76" rx="11" fill="#dff4ff"/><rect x="70" y="24" width="40" height="62" rx="8" fill="#4c9fe0"/><circle cx="82" cy="35" r="6" fill="#092b62"/><circle cx="98" cy="35" r="6" fill="#092b62"/><path d="M75 69 Q90 53 105 69" stroke="#dff4ff" stroke-width="4" fill="none" stroke-linecap="round"/></svg>
+          </div><strong>Mobile Pouches</strong><small>Phone covers & cases</small>
+        </button>
+        <button class="category-btn" type="button" role="tab" aria-selected="false" data-category="handsfree">
+          <div class="category-art">
+            <svg viewBox="0 0 180 110" aria-hidden="true"><path d="M54 28 Q90 -2 126 28 L126 65" stroke="#163d70" stroke-width="8" fill="none" stroke-linecap="round"/><rect x="44" y="54" width="25" height="42" rx="12" fill="#087cf0"/><rect x="111" y="54" width="25" height="42" rx="12" fill="#087cf0"/><rect x="50" y="60" width="13" height="26" rx="6" fill="#dff4ff"/><rect x="117" y="60" width="13" height="26" rx="6" fill="#dff4ff"/><path d="M90 22 V48" stroke="#19c5e8" stroke-width="5" stroke-linecap="round"/></svg>
+          </div><strong>Handsfree</strong><small>Wired earphones</small>
+        </button>
+        <button class="category-btn" type="button" role="tab" aria-selected="false" data-category="chargers">
+          <div class="category-art">
+            <svg viewBox="0 0 180 110" aria-hidden="true"><rect x="57" y="21" width="66" height="62" rx="13" fill="#fff" stroke="#0c3b76" stroke-width="4"/><rect x="73" y="11" width="7" height="14" rx="2" fill="#0c3b76"/><rect x="100" y="11" width="7" height="14" rx="2" fill="#0c3b76"/><path d="M90 37 L78 56 H91 L84 72 L106 48 H93 L100 37Z" fill="#19bce8"/><path d="M90 83 V96 Q90 102 99 102 H122" stroke="#0c3b76" stroke-width="4" fill="none" stroke-linecap="round"/></svg>
+          </div><strong>Chargers</strong><small>Adapters & cables</small>
+        </button>
+        <button class="category-btn" type="button" role="tab" aria-selected="false" data-category="earbuds">
+          <div class="category-art">
+            <svg viewBox="0 0 180 110" aria-hidden="true"><rect x="50" y="48" width="80" height="48" rx="19" fill="#fff" stroke="#0b3a72" stroke-width="4"/><path d="M50 66 Q90 86 130 66" stroke="#d3e7fa" stroke-width="3" fill="none"/><path d="M69 12 C54 12 53 31 57 43 L63 61 Q67 70 76 65 Q82 61 78 52 L73 38 Q71 30 77 28 Q83 27 84 35 L85 55" fill="#fff" stroke="#0b3a72" stroke-width="4" stroke-linecap="round"/><path d="M111 12 C126 12 127 31 123 43 L117 61 Q113 70 104 65 Q98 61 102 52 L107 38 Q109 30 103 28 Q97 27 96 35 L95 55" fill="#fff" stroke="#0b3a72" stroke-width="4" stroke-linecap="round"/></svg>
+          </div><strong>AirPods / Earbuds</strong><small>Wireless earbuds</small>
+        </button>
+      </div>
+
+      <div class="product-panel" id="productPanel" aria-live="polite">
+        <div class="product-panel-head">
+          <div><span class="kicker">Selected category</span><h3 id="productTitle">Mobile Pouches</h3></div>
+          <span class="muted" style="font-size:12px">Sample product gallery</span>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="soft" id="packages">
+    <div class="wrap">
+      <div class="section-head"><span class="kicker">Choose your network</span><h2>Online Packages</h2><p>Jazz, Zong, Ufone and Telenor package enquiries are welcome.</p></div>
+      <div class="network-grid">
+        <div class="network"><b>JAZZ</b><span>Package enquiries</span></div>
+        <div class="network"><b>ZONG</b><span>Package enquiries</span></div>
+        <div class="network"><b>UFONE</b><span>Package enquiries</span></div>
+        <div class="network"><b>TELENOR</b><span>Package enquiries</span></div>
+      </div>
+      <p class="notice">Package names, prices and availability can change. Contact us on WhatsApp to confirm the latest details before ordering.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta">
+        <div><h2>Need an online package?</h2><p>Send us a WhatsApp message and tell us your mobile network.</p></div>
+        <a class="btn primary" href="https://wa.me/923161833610?text=Assalam-o-Alaikum%2C%20please%20share%20your%20latest%20online%20package%20details." target="_blank" rel="noopener">Ask on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="soft">
+    <div class="wrap">
+      <div class="section-head"><span class="kicker">Visit or message us</span><h2>Contact Sky Mobile Communications</h2><p>We’re happy to help with your mobile service enquiries.</p></div>
+      <div class="contact-grid">
+        <div class="contact-box">
+          <div class="contact-row"><div class="icon">📍</div><div><strong>Shop Address</strong><span class="muted">Near Hali Road, Near Bismillah Market, Hyderabad, Pakistan</span></div></div>
+          <div class="contact-row"><div class="icon">☎️</div><div><strong>Call / WhatsApp</strong><a href="tel:+923161833610">0316 1833610</a></div></div>
+          <div class="contact-row"><div class="icon">💬</div><div><strong>WhatsApp Support</strong><a href="https://wa.me/923161833610" target="_blank" rel="noopener">Message us directly</a></div></div>
+        </div>
+        <div class="contact-box">
+          <h3>Quick WhatsApp Enquiry</h3>
+          <p class="muted">Tap below to ask about accessories or online packages.</p>
+          <a class="btn primary" href="https://wa.me/923161833610?text=Assalam-o-Alaikum%2C%20I%20am%20contacting%20you%20through%20your%20website." target="_blank" rel="noopener">Contact Us on WhatsApp</a>
+          <p class="muted" style="font-size:12px;margin-top:18px">WhatsApp number: 03161833610</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© <span id="year"></span> Sky Mobile Communications. All rights reserved. | Hyderabad, Pakistan</div></footer>
+<a class="wa" href="https://wa.me/923161833610" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">WhatsApp</a>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
